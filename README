@@ -1,0 +1,6 @@
+$ bundle install ( --path vendor/bundle )
+$ cp boot.sh.sample boot.sh
+$ ./boot.sh
+or
+$ edit boot.sh # change IP
+$ bundle exec shotgun config.ru -o 192.168.XX.XXX ( -p 4567 )
